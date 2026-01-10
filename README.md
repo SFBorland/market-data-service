@@ -6,6 +6,13 @@
 - Redis API (test) / Ehcache (dev)
 - MapStruct
 
+### Flow
+- View stocks/price
+  - Screen that shows (sym, mkt.price)
+- Execute trade
+  - Buy screen (sym,#shares,est.cost)
+  - ![img.png](img.png)
+
 ### Docker
 
 Build the Docker image:
