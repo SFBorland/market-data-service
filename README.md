@@ -2,11 +2,22 @@
 
 ### Tech
 - Spring Data JDBC
-- WebSocket (maybe not - use for live ticker)
+- WebSocket (update UI from cache)
+- gRPC (get persistent quote updates for cache)
 - Redis API (test) / Ehcache (dev)
 - MapStruct
 
-### Flow
+### Flow (update quote cache)
+```
+Quote-Generator-Service  
+  └─ generates ticks (e.g., every 100–500ms)
+     └─ gRPC stream
+        └─ Market-Data-Service
+            ├─ in-memory cache (hot path)
+            ├─ Redis (shared state / scale-out)
+            └─ WebSocket → UI
+```
+### Flow (select stock)
 - View stocks/price
   - Screen that shows (sym, mkt.price)
 - Execute trade
