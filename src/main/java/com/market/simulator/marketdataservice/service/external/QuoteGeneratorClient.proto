@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service QuoteGeneratorClient {
+  rpc getStockQuote(StockQuoteRequest) returns (StockQuoteResponse);
+}
+
+message StockQuoteRequest{
+  string symbol = 1;
+}
+
+message StockQuoteResponse {
+  double price = 1;
+}
