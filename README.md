@@ -1,9 +1,10 @@
 # User Service
 
 ### Tech
-- Spring Data JDBC
-- WebSocket (update UI from cache)
+- Spring Data JDBC (Historical data)
+- WebSocket (update UI live ticker from cache)
 - gRPC (get persistent quote updates for cache)
+  - eventually switch to Aeron+SBE?
 - Redis API (test) / Ehcache (dev)
 - MapStruct
 
@@ -57,6 +58,29 @@ Build the Docker image:
 * Command to print schema: `SCRIPT` then `RUN` in the H2 console text window.
 
 ### Sample CURLs
+* [FinnHub](https://finnhub.io/docs/api/quote)
+
+```json
+//GET https://finnhub.io/api/v1/quote?symbol=AAPL&token=
+[
+  {
+  "c": 261.74,
+  "h": 263.31,
+  "l": 260.68,
+  "o": 261.07,
+  "pc": 259.45,
+  "t": 1582641000 
+},
+{
+  "c": "Current price",
+  "d": "Change",
+  "dp": "Percent change",
+  "h": "High price of the day",
+  "l": "Low price of the day",
+  "o": "Open price of the day",
+  "pc": "Previous close price"
+  }
+]
 
 * [AlphaVantage](https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&outputsize=full&apikey=demo)
 
