@@ -1,5 +1,6 @@
 # User Service
 
+[kaggle S&P Dataset](https://www.kaggle.com/datasets/joebeachcapital/s-and-p500-index-stocks-daily-updated?resource=download&select=sp500_data.csv)
 ### Tech
 - Spring Data JDBC (Historical data)
 - WebSocket (update UI live ticker from cache)
@@ -132,4 +133,45 @@ Build the Docker image:
 - First build generator
   - With the same format as the Site
 - Then use Websocket for Live ticker view
+
+### Package Structure (not markdown friendly)
+com.market.simulator.marketdataservice
+│
+├── api                     ← Your REST boundary
+│   ├── controller
+│   └── dto                 ← DTOs used by your API only
+│       ├── QuoteDto.java
+│       └── MarketStatusDto.java
+│
+├── domain                  ← Pure business models
+│   ├── Quote.java
+│   ├── Stock.java
+│   └── MarketStatus.java
+│
+├── service                 ← Provider-agnostic logic
+│   ├── QuoteService.java
+│   ├── QuoteServiceImpl.java
+│   └── mapper              ← domain ↔ api dto mapping
+│
+├── integration             ← All external systems
+│   ├── alphavantage
+│   │   ├── AlphaVantageClient.java
+│   │   ├── dto             ← provider-specific DTOs
+│   │   └── mapper
+│   │
+│   ├── finnhub
+│   │   ├── FinnhubClient.java
+│   │   ├── dto
+│   │   └── mapper
+│   │
+│   └── quotegenerator
+│       ├── QuoteGeneratorClient.java
+│       ├── QuoteGeneratorClient.proto
+│       ├── dto
+│       └── mapper
+│
+├── repository
+│
+└── MarketDataServiceApplication.java
+
 

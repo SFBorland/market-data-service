@@ -1,4 +1,4 @@
-package com.market.simulator.marketdataservice.model;
+package com.market.simulator.marketdataservice.domain;
 
 import java.math.BigDecimal;
 import java.time.Instant;
