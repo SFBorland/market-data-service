@@ -82,9 +82,24 @@ Build the Docker image:
   "pc": "Previous close price"
   }
 ]
+```
+
+* [FinnHub | GET Trade](https://finnhub.io/docs/api/websocket-trades)
+```json
+{
+  "data": [
+    {
+      "p": 7296.89,
+      "s": "BINANCE:BTCUSDT",
+      "t": 1575526691134,
+      "v": 0.011467
+    }
+  ],
+  "type": "trade"
+}
+```
 
 * [AlphaVantage](https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&outputsize=full&apikey=demo)
-
 ```json
 {
   "Meta Data": {
