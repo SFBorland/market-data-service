@@ -17,8 +17,8 @@ public class FinnhubClient extends WebSocketClient {
   public void onOpen(ServerHandshake handshakedata) {
     System.out.println("Connected to Finnhub");
     // Subscribe to symbols as soon as the connection opens
-    this.send("{\"type\":\"subscribe\",\"symbol\":\"AAPL\"}");
     this.send("{\"type\":\"subscribe\",\"symbol\":\"BINANCE:BTCUSDT\"}");
+//    this.send("{\"type\":\"subscribe\",\"symbol\":\"BINANCE:BTCUSDT\"}");
   }
 
   @Override
@@ -28,6 +28,7 @@ public class FinnhubClient extends WebSocketClient {
 
       if ("trade".equals(tradeMsg.type) && tradeMsg.data != null) {
         for (FinnhubTradeMessage.TradeData trade : tradeMsg.data) {
+          System.out.println("Trade: " + trade);
           System.out.printf("Symbol: %s | Price: %.2f | Volume: %f%n",
               trade.symbol, trade.price, trade.volume);
 
@@ -51,7 +52,7 @@ public class FinnhubClient extends WebSocketClient {
 
   public static void main(String[] args) throws Exception {
     // Replace 'YOUR_API_KEY' with your actual token from the Finnhub dashboard
-    String token = "YOUR_API_KEY";
+    String token = "d5umo19r01qr4f89oqqgd5umo19r01qr4f89oqr0";
     FinnhubClient client = new FinnhubClient(new URI("wss://ws.finnhub.io?token=" + token));
     client.connect();
   }

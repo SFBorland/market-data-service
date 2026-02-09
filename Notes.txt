@@ -1,0 +1,49 @@
+Current
+-------
+- collect all the trade prices
+- save to Redis
+- save to Postgres
+- expose prices via WS for UI price ticker (on single stock view)
+- post
+
+
+Ingest service
+--------------
+- pull from Finnhub and generator
+- publish to Kafka
+-
+
+Prompt
+------
+- Finnhubs Trade api endpoint uses websockets, I want to pull in that data and in real time, feed it to the UI (I'm told WS are best?), cache it in Redis, persist it to Postgres, and expose it to other services via gRPC. For the UI, I want the real time price to update in real time, I have a graph that for the 1D part, I want to show the last price at an interval of 1s (for some stocks, there are like 200k trades per second, I don't need all of those). Now, Redis and Postgres come into play because I want other services to be able to query the data. I'm not sure if I should save trades for every second, min etc. Also, my order service will need real time data so I'm thinking gRPC from this service? What should be my flow? Is Kafka needed etc
+
+
+┌─────────────┐  ┌─────────────┐
+│  Finnhub WS │  │ Generator WS│
+└──────┬──────┘  └───┬─────────┘
+       │ (raw trades, 200k/s)
+       ▼             ▼
+┌─────────────────────┐            ┌─────────────┐
+│ Market Ingest Serv  │  <──────── | History CSV |
+│  (Ingest Layer)     │            └─────────────┘
+└──────┬──────────────┘
+       │
+       ├──────────────────────────────┐──────────────────────
+       │                              │                     │
+       ▼                              ▼                     ▼
+┌─────────────┐              ┌──────────────┐       ┌──────────────┐
+│   Kafka     │              │   Redis      │       │  PostgreSQL  │
+│ (real time) │              │  (hot cache) │       │ (time-series)│
+└──────┬──────┘              └───┬──────────┘       └───────┬───────┘
+       │                         |                          |
+       ▼                         |                          |
+┌──────────────┐                 |                          |
+│  MDS Service │<────────────────────────────────────────────
+└──────┬───────┘                       │
+       |                               │
+       ▼                               |
+ ┌──────────┐                  ┌──────────────┐
+ │ WebSocket│                  │Order Service │
+ │  → UI    │                  │(lmt/mkt ord) │
+ └──────────┘                  └──────────────┘
+
