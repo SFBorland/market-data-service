@@ -1,0 +1,25 @@
+Connected to Finnhub
+Message: {"type":"ping"}
+Message: {"type":"ping"}
+Message: {"type":"ping"}
+Message: {"data":[{"c":[],"p":696,"s":"SPY","t":1770737679076,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":696.01,"s":"SPY","t":1770737680201,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":695.96,"s":"SPY","t":1770737686638,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":695.96,"s":"SPY","t":1770737695004,"v":80}],"type":"trade"}
+Message: {"type":"ping"}
+Message: {"data":[{"c":[],"p":695.79,"s":"SPY","t":1770737707858,"v":80}],"type":"trade"}
+Message: {"type":"ping"}
+Message: {"data":[{"c":[],"p":695.71,"s":"SPY","t":1770737775943,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":695.76,"s":"SPY","t":1770737788238,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":695.79,"s":"SPY","t":1770737799808,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":695.86,"s":"SPY","t":1770737806004,"v":80}],"type":"trade"}
+Message: {"data":[{"c":["8","41"],"p":695.87,"s":"SPY","t":1770737816643,"v":80}],"type":"trade"}
+Message: {"type":"ping"}
+Message: {"data":[{"c":[],"p":695.71,"s":"SPY","t":1770737862963,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":695.42,"s":"SPY","t":1770737872836,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":695.43,"s":"SPY","t":1770737879795,"v":80}],"type":"trade"}
+Message: {"type":"ping"}
+Message: {"data":[{"c":[],"p":695.64,"s":"SPY","t":1770737892971,"v":80}],"type":"trade"}
+Message: {"data":[{"c":[],"p":695.65,"s":"SPY","t":1770737895086,"v":80}],"type":"trade"}
+Message: {"type":"ping"}
+Message: {"type":"ping"}

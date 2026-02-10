@@ -1,0 +1,118 @@
+Connected to Finnhub
+Message: {"data":[{"c":["1","8"],"p":274.4,"s":"AAPL","t":1770737010048,"v":100},{"c":["1","8"],"p":274.4,"s":"AAPL","t":1770737010048,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1"],"p":274.33,"s":"AAPL","t":1770737011429,"v":100},{"c":["1"],"p":274.33,"s":"AAPL","t":1770737011429,"v":100},{"c":["1","8"],"p":274.24,"s":"AAPL","t":1770737011466,"v":193},{"c":["1","8"],"p":274.31,"s":"AAPL","t":1770737011322,"v":106},{"c":["1","8"],"p":274.31,"s":"AAPL","t":1770737011322,"v":106}],"type":"trade"}
+Message: {"data":[{"c":["1","8"],"p":274.24,"s":"AAPL","t":1770737011466,"v":193}],"type":"trade"}
+Message: {"data":[{"c":["1"],"p":274.23,"s":"AAPL","t":1770737011727,"v":200},{"c":["1"],"p":274.23,"s":"AAPL","t":1770737011727,"v":200}],"type":"trade"}
+Message: {"data":[{"c":["1","8"],"p":274.34,"s":"AAPL","t":1770737020128,"v":100},{"c":["1","8"],"p":274.34,"s":"AAPL","t":1770737020128,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1","8"],"p":274.215,"s":"AAPL","t":1770737035699,"v":100},{"c":["1","8"],"p":274.215,"s":"AAPL","t":1770737035699,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1"],"p":274.23,"s":"AAPL","t":1770737043543,"v":100},{"c":["1"],"p":274.23,"s":"AAPL","t":1770737043543,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1"],"p":274.18,"s":"AAPL","t":1770737045303,"v":100},{"c":["1"],"p":274.18,"s":"AAPL","t":1770737045303,"v":100}],"type":"trade"}
+Message: {"type":"ping"}
+Message: {"data":[{"c":["1","8"],"p":274.13,"s":"AAPL","t":1770737048255,"v":100},{"c":["1"],"p":274.15,"s":"AAPL","t":1770737048255,"v":100},{"c":["1","8"],"p":274.14,"s":"AAPL","t":1770737048256,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1","8"],"p":274.13,"s":"AAPL","t":1770737048255,"v":100},{"c":["1"],"p":274.15,"s":"AAPL","t":1770737048255,"v":100},{"c":["1","8"],"p":274.14,"s":"AAPL","t":1770737048256,"v":100},{"c":["1","8"],"p":274.11,"s":"AAPL","t":1770737048697,"v":299},{"c":["1","8"],"p":274.17,"s":"AAPL","t":1770737048532,"v":139},{"c":["1","8"],"p":274.17,"s":"AAPL","t":1770737048532,"v":100},{"c":["1","8"],"p":274.11,"s":"AAPL","t":1770737048697,"v":299},{"c":["1"],"p":274.12,"s":"AAPL","t":1770737048700,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1"],"p":274.12,"s":"AAPL","t":1770737048700,"v":100},{"c":["1","8"],"p":274.12,"s":"AAPL","t":1770737048705,"v":200},{"c":["1","8"],"p":274.17,"s":"AAPL","t":1770737048532,"v":139},{"c":["1","8"],"p":274.17,"s":"AAPL","t":1770737048532,"v":100},{"c":["1","8"],"p":274.12,"s":"AAPL","t":1770737048705,"v":200}],"type":"trade"}
+
+Connected to Finnhub
+Message: {"type":"ping"}
+Message: {"data":[{"c":["1"],"p":274.56,"s":"AAPL","t":1770738122679,"v":100},{"c":["1"],"p":274.56,"s":"AAPL","t":1770738122679,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1"],"p":274.56,"s":"AAPL","t":1770738125602,"v":200},{"c":["1"],"p":274.56,"s":"AAPL","t":1770738125602,"v":200},{"c":["1"],"p":274.52,"s":"AAPL","t":1770738126217,"v":200},{"c":["1"],"p":274.52,"s":"AAPL","t":1770738126217,"v":200}],"type":"trade"}
+Message: {"data":[{"c":["1","8"],"p":274.53,"s":"AAPL","t":1770738136271,"v":100},{"c":["1","8"],"p":274.53,"s":"AAPL","t":1770738136271,"v":200},{"c":["1","8"],"p":274.53,"s":"AAPL","t":1770738136271,"v":100},{"c":["1"],"p":274.52,"s":"AAPL","t":1770738136271,"v":100},{"c":["1"],"p":274.52,"s":"AAPL","t":1770738136271,"v":100},{"c":["1","8"],"p":274.53,"s":"AAPL","t":1770738136271,"v":100},{"c":["1","8"],"p":274.53,"s":"AAPL","t":1770738136271,"v":200},{"c":["1","8"],"p":274.53,"s":"AAPL","t":1770738136271,"v":100},{"c":["1"],"p":274.52,"s":"AAPL","t":1770738136271,"v":100},{"c":["1"],"p":274.52,"s":"AAPL","t":1770738136271,"v":100},{"c":["1"],"p":274.53,"s":"AAPL","t":1770738136300,"v":200},{"c":["1","8"],"p":274.54,"s":"AAPL","t":1770738136300,"v":100},{"c":["1"],"p":274.53,"s":"AAPL","t":1770738136300,"v":200},{"c":["1","8"],"p":274.54,"s":"AAPL","t":1770738136300,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1"],"p":274.61,"s":"AAPL","t":1770738138811,"v":100},{"c":["1"],"p":274.61,"s":"AAPL","t":1770738138811,"v":100}],"type":"trade"}
+Message: {"data":[{"c":["1","8"],"p":274.6,"s":"AAPL","t":1770738140390,"v":100},{"c":["1","8"],"p":274.6,"s":"AAPL","t":1770738140390,"v":100},{"c":["1","8"],"p":274.6,"s":"AAPL","t":1770738140390,"v":100},{"c":["1","8"],"p":274.6,"s":"AAPL","t":1770738140390,"v":100}],"type":"trade"}
+
+----
+
+Connected to Finnhub
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@23108eb5
+Symbol: AAPL | Price: 274.82 | Volume: 126.000000 | TimeStamp: 1770736267393
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@1b0b87c5
+Symbol: AAPL | Price: 274.82 | Volume: 200.000000 | TimeStamp: 1770736267393
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@76cc5d2
+Symbol: AAPL | Price: 274.82 | Volume: 126.000000 | TimeStamp: 1770736267393
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@25ac3a40
+Symbol: AAPL | Price: 274.82 | Volume: 200.000000 | TimeStamp: 1770736267393
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@5709c291
+Symbol: AAPL | Price: 274.53 | Volume: 200.000000 | TimeStamp: 1770736230540
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@107b421a
+Symbol: AAPL | Price: 274.81 | Volume: 139.000000 | TimeStamp: 1770736268490
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@71584792
+Symbol: AAPL | Price: 274.81 | Volume: 139.000000 | TimeStamp: 1770736268490
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@35621dc3
+Symbol: AAPL | Price: 274.77 | Volume: 100.000000 | TimeStamp: 1770736275017
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@2ce65cb4
+Symbol: AAPL | Price: 274.77 | Volume: 100.000000 | TimeStamp: 1770736275017
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@66c7a0a0
+Symbol: AAPL | Price: 274.80 | Volume: 100.000000 | TimeStamp: 1770736252591
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@55901f3d
+Symbol: AAPL | Price: 274.80 | Volume: 100.000000 | TimeStamp: 1770736252591
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@70b99c49
+Symbol: AAPL | Price: 274.83 | Volume: 100.000000 | TimeStamp: 1770736267175
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@6ea47d16
+Symbol: AAPL | Price: 274.83 | Volume: 100.000000 | TimeStamp: 1770736267175
+
+
+---------
+
+{
+  "data" : [ {
+    "c" : [ "1", "8" ],
+    "p" : 274.78,
+    "s" : "AAPL",
+    "t" : 1770736330157,
+    "v" : 118
+  } ],
+  "type" : "trade"
+}
+
+--
+
+{
+  "data" : [ {
+    "c" : [ "1", "8" ],
+    "p" : 274.82,
+    "s" : "AAPL",
+    "t" : 1770736319599,
+    "v" : 201
+  }, {
+    "c" : [ "1", "8" ],
+    "p" : 274.82,
+    "s" : "AAPL",
+    "t" : 1770736319599,
+    "v" : 201
+  } ],
+  "type" : "trade"
+}
+
+--
+
+{
+  "data" : [ {
+    "c" : [ "1", "8" ],
+    "p" : 274.83,
+    "s" : "AAPL",
+    "t" : 1770736320453,
+    "v" : 128
+  }, {
+    "c" : [ "1", "8" ],
+    "p" : 274.83,
+    "s" : "AAPL",
+    "t" : 1770736320453,
+    "v" : 128
+  } ],
+  "type" : "trade"
+}
+
+-- (I skipped some above)
+Connected to Finnhub
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@102f42ff
+Symbol: AAPL | Price: 274.78 | Volume: 118.000000 | TimeStamp: 1770736330157
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@14383984
+Symbol: AAPL | Price: 274.78 | Volume: 118.000000 | TimeStamp: 1770736330157
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@1243008c
+Symbol: AAPL | Price: 274.82 | Volume: 201.000000 | TimeStamp: 1770736319599
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@3974282
+Symbol: AAPL | Price: 274.82 | Volume: 201.000000 | TimeStamp: 1770736319599
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@505edaa3
+Symbol: AAPL | Price: 274.82 | Volume: 100.000000 | TimeStamp: 1770736339771
+Trade: com.market.simulator.marketdataservice.integration.finnhub.websocket.FinnhubTradeMessage$TradeData@3f37c22d
+Symbol: AAPL | Price: 274.82 | Volume: 100.000000 | TimeStamp: 1770736339771
