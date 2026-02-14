@@ -14,7 +14,7 @@
 Quote-Generator-Service  
   └─ generates ticks (e.g., every 100–500ms)
      └─ gRPC stream
-        └─ Market-Data-Service
+        └─ Market-Data-Ingest
             ├─ in-memory cache (hot path)
             ├─ Redis (shared state / scale-out)
             └─ WebSocket → UI

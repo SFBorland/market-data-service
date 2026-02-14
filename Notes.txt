@@ -24,7 +24,7 @@ Prompt
        │ (raw trades, 200k/s)
        ▼             ▼
 ┌─────────────────────┐            ┌─────────────┐
-│ Market Ingest Serv  │  <──────── | History CSV |
+│ market-data-ingest  │  <──────── | History CSV |
 │  (Ingest Layer)     │            └─────────────┘
 └──────┬──────────────┘
        │
