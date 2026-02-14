@@ -9,10 +9,10 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.market.simulator</groupId>
-  <artifactId>market-data-service</artifactId>
+  <artifactId>market-data-ingest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>market-data-service</name>
-  <description>market-data-service</description>
+  <name>market-data-ingest</name>
+  <description>market-data-ingest</description>
   <properties>
     <java.version>21</java.version>
   </properties>
